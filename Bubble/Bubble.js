@@ -21,10 +21,6 @@ function Bubble(x, y){
         return random(-2, 2)
     }
 
-    this.shouldExplode = function (x, y){
-        return false;
-    }
-
     this.getX = function (){
         return this.x
     }
@@ -35,10 +31,5 @@ function Bubble(x, y){
     
     this.getRadius = function (){
         return this.radius;
-    }
-
-    function targetIsInsideBodyY(y){
-        return y > this.y - this.radius &&
-               y < this.y + this.radius;
     }
 }
