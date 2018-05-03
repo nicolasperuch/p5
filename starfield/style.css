@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+.git-img {
+  content:url(https://rcloud.social/images/Octocat.png);
+}
+
+.linkedin-img {
+  content:url(http://www.vectorico.com/wp-content/uploads/2018/02/LinkedIn-Icon-300x300.png)
+}
+  
+.medium-img {
+  content:url(https://www.seeklogo.net/wp-content/uploads/2017/03/medium-logo.png)
+}
+  
+.parallax {
+  position:relative;
+  z-index:1;
+  height:450px;
+  -webkit-box-shadow: inset 0px -6px 5px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: inset 0px -6px 5px rgba(50, 50, 50, 0.75);
+  box-shadow: inset 0px -6px 5px rgba(50, 50, 50, 0.75);
+}
